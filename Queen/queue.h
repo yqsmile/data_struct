@@ -1,5 +1,5 @@
-#ifndef QUEEN_H
-#define QUEEN_H
+#ifndef queue_H
+#define queue_H
 
 #undef data_type
 #define data_type char
@@ -9,7 +9,7 @@ typedef struct def_node{
   struct def_node *next;
 }Node;
 
-void in_queen(Node *in_node);
-int out_queen(Node *out_node);
+void enqueue(Node *in_node);
+int dequeue(Node *out_node);
 
 #endif
